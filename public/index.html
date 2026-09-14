@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Convert by Ayush — fast document and media tools.">
+<title>Convert by Ayush</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home"><span class="brand-mark">A↻</span><span>Convert by Ayush</span></a>
+  <nav>
+    <a href="#home">Home</a><a href="#documents">Document Tools</a><a href="#media">Media Tools</a><a href="#downloader">Downloader</a><a href="#about">About</a>
+  </nav>
+  <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☀️</button>
+</header>
+
+<main id="home">
+<section class="hero section">
+  <div class="hero-copy">
+    <span class="eyebrow">⚡ CONVERT • DOWNLOAD • SIMPLIFY</span>
+    <h1>Convert Anything.<br><span class="gradient">Download Everything.</span></h1>
+    <p>Fast, simple & powerful tools — all in one place.</p>
+    <div class="actions"><a class="btn primary" href="#documents">Get Started</a><a class="btn ghost" href="#quick">Explore Tools</a></div>
+    <div class="mini-trust"><span>🔒 Privacy-first cleanup</span><span>📱 Mobile ready</span><span>🆓 Free tools</span></div>
+  </div>
+  <div class="hero-orb"><div class="orb-inner">A↻</div></div>
+</section>
+
+<section id="quick" class="section">
+ <div class="section-head"><div><span class="eyebrow">QUICK TOOLS</span><h2>Pick a tool and get started.</h2></div></div>
+ <div class="tool-grid">
+  <button class="tool-card" data-tool="pdf-to-images"><span>📄</span><b>PDF → Image</b><small>Turn PDF pages into JPG</small></button>
+  <button class="tool-card" data-tool="docx-to-pdf"><span>📝</span><b>DOCX → PDF</b><small>Clean document conversion</small></button>
+  <button class="tool-card" data-tool="image-to-pdf"><span>🖼️</span><b>Image → PDF</b><small>Combine images into PDF</small></button>
+  <button class="tool-card" data-tool="pdf-to-docx"><span>🔄</span><b>PDF → DOCX</b><small>Conversion engine ready to plug in</small></button>
+  <button class="tool-card" data-tool="mp4-to-mp3"><span>🎵</span><b>MP4 → MP3</b><small>Extract audio from video</small></button>
+  <button class="tool-card" data-tool="downloader"><span>📥</span><b>Public URL Downloader</b><small>Paste a supported public media link</small></button>
+ </div>
+</section>
+
+<section id="documents" class="section">
+ <span class="eyebrow">DOCUMENT TOOLS</span><h2>Documents, without the hassle.</h2>
+ <div class="tool-grid">
+  <button class="tool-card" data-tool="pdf-to-images"><span>📄</span><b>PDF → Image</b><small>50 MB • JPG pages</small></button>
+  <button class="tool-card" data-tool="docx-to-image"><span>📝</span><b>DOCX → Image</b><small>50 MB • JPG pages</small></button>
+  <button class="tool-card" data-tool="image-to-pdf"><span>🖼️</span><b>Image → PDF</b><small>50 MB per file</small></button>
+  <button class="tool-card" data-tool="docx-to-pdf"><span>📘</span><b>DOCX → PDF</b><small>50 MB</small></button>
+  <button class="tool-card" data-tool="pdf-to-docx"><span>📑</span><b>PDF → DOCX</b><small>Engine placeholder</small></button>
+  <button class="tool-card" data-tool="image-to-docx"><span>🧾</span><b>Image → DOCX</b><small>OCR engine placeholder</small></button>
+ </div>
+</section>
+
+<section id="media" class="section">
+ <span class="eyebrow">MEDIA TOOLS</span><h2>Make your media work for you.</h2>
+ <div class="tool-grid">
+  <button class="tool-card" data-tool="mp4-to-mp3"><span>🎬</span><b>MP4 → MP3</b><small>Up to 1 GB</small></button>
+ </div>
+</section>
+
+<section id="downloader" class="section">
+ <span class="eyebrow">PUBLIC MEDIA DOWNLOADER</span><h2>Paste a public media URL.</h2>
+ <div class="download-box glass">
+   <div class="platforms"><span>▶️ YouTube</span><span>📸 Instagram</span><span>🔵 Facebook</span><span>🎵 TikTok</span><span>𝕏 X</span><span>📌 Pinterest</span><span>👻 Snapchat</span><span>💬 Reddit</span><span>🎥 Vimeo</span></div>
+   <form id="urlForm"><input id="urlInput" type="url" placeholder="https://..." required><button class="btn primary">Check Link</button></form>
+   <p class="muted">Public, non-DRM content only. Private/login-required/DRM content is not supported.</p>
+   <div id="urlResult"></div>
+ </div>
+</section>
+
+<section class="section stats">
+ <div><strong>10+</strong><span>Tools</span></div><div><strong>6</strong><span>Document Tools</span></div><div><strong>4+</strong><span>Media Platforms</span></div><div><strong>100%</strong><span>Free</span></div>
+</section>
+
+<section class="section">
+ <span class="eyebrow">WHY CONVERT BY AYUSH</span><h2>Built for simple, everyday conversions.</h2>
+ <div class="feature-grid">
+  <article><span>⚡</span><h3>Fast Processing</h3><p>Simple workflows with clear progress and download results.</p></article>
+  <article><span>🔒</span><h3>Privacy First</h3><p>Temporary files are automatically cleaned from the local server.</p></article>
+  <article><span>📱</span><h3>Mobile Friendly</h3><p>Designed first for phones, including Termux-hosted setups.</p></article>
+  <article><span>🎯</span><h3>Easy to Use</h3><p>Choose a tool, drag a file, convert, download.</p></article>
+ </div>
+</section>
+
+<section class="section how"><span class="eyebrow">HOW IT WORKS</span><h2>Three steps. That's it.</h2>
+<div class="steps"><div><b>01</b><h3>Upload / Paste</h3><p>Choose a file or paste a public media URL.</p></div><div><b>02</b><h3>Convert / Process</h3><p>The local backend handles the conversion.</p></div><div><b>03</b><h3>Download</h3><p>Download the result when it is ready.</p></div></div>
+</section>
+
+<section class="section faq"><span class="eyebrow">FAQ</span><h2>Questions, answered.</h2>
+<details><summary>What file limits are used?</summary><p>Documents/images are limited to 50 MB and videos to 1 GB.</p></details>
+<details><summary>Are uploaded files kept?</summary><p>The local server periodically deletes temporary files after the configured cleanup window.</p></details>
+<details><summary>Does it work on mobile?</summary><p>Yes. The interface is responsive and can run from Termux.</p></details>
+<details><summary>Does the downloader support private or DRM content?</summary><p>No. It is designed for public, non-DRM media only.</p></details>
+</section>
+
+<section id="about" class="section about">
+ <div class="profile"><div class="ring"><img src="/my.jpg" alt="Ayush Lohani" onerror="this.style.display='none';this.parentElement.classList.add('no-photo')"></div></div>
+ <div><span class="eyebrow">ABOUT THE CREATOR</span><h2>Hi, I'm Ayush Lohani.</h2><p>I build practical web tools, templates and digital projects with a focus on clean interfaces and useful workflows.</p><div class="chips"><span>Web Development</span><span>JavaScript</span><span>Node.js</span><span>UI/UX</span></div><p class="signature">Convert by Ayush — built to make everyday file and media tasks simpler.</p></div>
+</section>
+
+<section id="contact" class="section contact">
+ <span class="eyebrow">CONTACT</span><h2>Let's connect.</h2>
+ <div class="contact-grid">
+  <form id="contactForm" class="glass form"><input name="name" placeholder="Your name" required><input name="email" type="email" placeholder="Your email" required><textarea name="message" rows="5" placeholder="Your message" required></textarea><button class="btn primary" type="submit">Send Message</button><p id="contactStatus" class="muted"></p></form>
+  <div class="glass contact-card">
+   <h3>Ayush Lohani</h3><a href="mailto:arunlohani07@gmail.com">📧 arunlohani07@gmail.com</a><a href="tel:+9779768595015">📞 9768595015</a><a href="https://wa.me/9779866352468" target="_blank" rel="noopener">💬 WhatsApp</a><a href="https://www.instagram.com/arun_lowhoney07/" target="_blank" rel="noopener">📸 Instagram</a><a href="https://www.facebook.com/share/1CHCBJdTM7/" target="_blank" rel="noopener">📘 Facebook</a><a href="https://github.com/arunlohani07-ui" target="_blank" rel="noopener">💻 GitHub</a>
+  </div>
+ </div>
+</section>
+
+<section class="section legal"><a href="#">Privacy Policy</a><a href="#">Terms & Conditions</a></section>
+</main>
+<footer><div><b>Convert by Ayush</b><p>Convert Anything. Download Everything.</p></div><div>© 2026 Convert by Ayush · Built with ❤️ by Ayush Lohani</div></footer>
+
+<div id="modal" class="modal"><div class="modal-card glass"><button id="closeModal" class="close">×</button><div id="modalContent"></div></div></div>
+<script src="/script.js"></script>
+</body></html>
